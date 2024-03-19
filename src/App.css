@@ -744,6 +744,62 @@ input:focus {
   border-bottom: 1px solid #251a25;
 }
 
+/* ====================ellipse======================= */
+.ellipse-1 {
+  background-color: #ad1aaf;
+  width: 402px;
+  height: 391px;
+  top: 0;
+  filter: blur(200px);
+  left: -300px;
+}
+
+.ellipse-2 {
+  background-color: #ad1aaf;
+  width: 385px;
+  height: 375px;
+  top: -12%;
+  filter: blur(200px);
+  left: -4%;
+}
+
+.ellipse-3 {
+  background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
+  width: 362px;
+  height: 366px;
+  bottom: 26%;
+  filter: blur(200px);
+  right: 4%;
+}
+
+.ellipse-4 {
+  background-color: #ad1aaf;
+  width: 350px;
+  height: 339px;
+  top: 5%;
+  filter: blur(200px);
+  left: -110px;
+}
+
+.ellipse-5 {
+  background-color: #ad1aaf;
+  width: 490px;
+  height: 206px;
+  bottom: -180px;
+  opacity: 75%;
+  filter: blur(150px);
+  left: -100px;
+}
+
+.ellipse-6 {
+  background: linear-gradient(151.6deg, #D4145A 1.85%, #FBB03B 98.12%);
+  width: 818px;
+  height: 88px;
+  bottom: -180px;
+  filter: blur(200px);
+  right: -200px;
+}
+
 @media (min-width:576px) {
   .form-gap {
     gap: 24px;

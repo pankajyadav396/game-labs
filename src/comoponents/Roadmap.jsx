@@ -10,6 +10,7 @@ const Roadmap = () => {
     return (
         <>
             <div className='my-md-5 position-relative z-1 py-5' id='Roadmap'>
+                <div className='ellipse-4 position-absolute opacity-75 z-n1'></div>
                 <p className="fs-xxl text-center z-n1 position-sm-absolute animater ps-3 color-black2 fw-bold ff-roboto lh-224">Roadmap</p>
                 <div className='container-lg max-w-1140'>
                     <div className='text-center mt-5 pt-3'>

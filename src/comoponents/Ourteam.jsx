@@ -70,7 +70,7 @@ const Ourteam = () => {
     ]
     return (
         <>
-            <div className='py-5 mt-5 mt-md-0 position-relative z-1' id='Team'>
+            <div className='pt-5 mt-5 mt-md-0 position-relative z-1' id='Team'>
                 <p className="fs-xxl animater2 z-n1 color-black2 fw-bold ff-roboto lh-224">Our Team</p>
                 <div className='container-xl max-w-1140'>
                     <div className='text-center mt-md-5 pt-md-4'>
@@ -87,7 +87,7 @@ const Ourteam = () => {
                                         <div className='d-sm-flex gap-3 mb-2 pb-1 align-items-center justify-content-center'>
                                             <div className='text-center text-sm-start'><img src={obj.img1} alt="image" className='img-team' />  </div>
                                             <div className='mt-3 mt-sm-0'>
-                                                <p className='fs-md1 text-center text-sm-start mb-1 color-white  ff-robotofw-semibold lh-21'>{obj.title} <span className='color-gradient fs-sm ff-roboto fw-normal'>{obj.title2}</span></p>
+                                                <p className='fs-md1 text-center text-sm-start mb-1 color-white  ff-roboto fw-semibold lh-21'>{obj.title} <span className='color-gradient fs-sm ff-roboto fw-normal'>{obj.title2}</span></p>
                                                 <p className='fs-sm3 text-center text-sm-start color-white mb-0 opacity-75 ff-roboto'>{obj.para}</p>
                                             </div>
                                         </div>
