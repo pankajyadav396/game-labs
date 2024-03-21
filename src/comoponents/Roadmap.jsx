@@ -13,7 +13,7 @@ const Roadmap = () => {
                 <div className='ellipse-4 position-absolute opacity-75 z-n1'></div>
                 <p className="fs-xxl text-center z-n1 position-sm-absolute animater ps-3 color-black2 fw-bold ff-roboto lh-224">Roadmap</p>
                 <div className='container-lg max-w-1140'>
-                    <div className='text-center mt-5 pt-3'>
+                    <div className='text-center mt-md-5 pt-3'>
                         <Commonbtn2 text="ROADMAP" />
                     </div>
                     <h2 className='fs-lg lh-62 fw-700 text-center fw-bold ff-roboto pb-2 color-white mt-3 mb-4 mb-md-5 pb-lg-3'>Milestones and markers</h2>

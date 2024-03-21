@@ -17,10 +17,11 @@ function App() {
 
   return (
     <>
+
+      <Preloader />
+      <Backtotop />
+      <Header />
       <div className='overflow-hidden'>
-        <Preloader />
-        <Backtotop />
-        <Header />
         <Swipesec />
         <Aboutus />
         <Xavier />
@@ -32,6 +33,7 @@ function App() {
         <Formsec />
         <Footersec />
       </div>
+
     </>
   )
 }

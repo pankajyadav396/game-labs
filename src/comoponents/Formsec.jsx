@@ -37,7 +37,7 @@ const Formsec = () => {
             errors.lastname = "LastName is invalid.";
         }
         if (!regex.number.test(formData.number)) {
-            errors.number = "Number is invalid.";
+            errors.number = "Number is invalid.Please enter your mobile no.";
         }
         if (!regex.email.test(formData.email)) {
             errors.email = "Email is invalid.";

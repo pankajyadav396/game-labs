@@ -18,10 +18,10 @@ const Footersec = () => {
                             <a href="#Aboutus" className='color-white home list-unstyled text-decoration-none  opacity-75 ff-roboto fw-normal fs-sm'>Aboutus</a>
                         </div>
                         <div className='d-flex gap-3 align-items-center justify-content-center mt-3 pt-2'>
-                            <a href="https://twitter.com/?lang=en" target='_blank'><Twitter /></a>
-                            <a href="https://facebook.com/?lang=en" target='_blank'><Facebook /></a>
-                            <a href="https://insta.com/?lang=en" target='_blank'><Insta /></a>
-                            <a href="https://Linkedin.com/?lang=en" target='_blank'><Linkedin /></a>
+                            <a href="https://twitter.com/?lang=en" target='_blank' className='footerlinks'><Twitter /></a>
+                            <a href="https://facebook.com/?lang=en" target='_blank' className='footerlinks'><Facebook /></a>
+                            <a href="https://insta.com/?lang=en" target='_blank' className='footerlinks'><Insta /></a>
+                            <a href="https://Linkedin.com/?lang=en" target='_blank' className='footerlinks'><Linkedin /></a>
                         </div>
                     </div>
                 </div>
