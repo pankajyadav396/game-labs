@@ -5,7 +5,7 @@ const Footersec = () => {
     const date = new Date().getFullYear();
     return (
         <>
-            <div className='position-relative'>
+            <div className='position-relative overflow-hidden'>
                 <div className='position-absolute ellipse-5 z-n1'></div>
                 <div className='position-absolute ellipse-6 z-n1'></div>
                 <div className='pt-5 mt-4 bb-1 pb-4'>

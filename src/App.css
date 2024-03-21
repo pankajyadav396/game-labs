@@ -282,6 +282,10 @@
   transition: .4s;
 }
 
+.overflow-xclip {
+  overflow-x: clip;
+}
+
 .open {
   left: 0px !important;
 }

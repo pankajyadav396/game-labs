@@ -5,7 +5,7 @@ export const Aboutus = () => {
     return (
         <>
             <div className="pt-lg-5" id="Aboutus">
-                <div className="py-md-5 mt-5 pb-5 bg-black position-relative z-1">
+                <div className="py-md-5 pb-5 bg-black position-relative z-1">
                     <div className="ellipse-1 position-absolute opacity-75"></div>
                     <p className="fs-xxl text-center z-n1 animater ps-3 color-black2 fw-bold ff-roboto mt-3 lh-224">About Us</p>
                     <div className="container max-w-1140 py-md-5">

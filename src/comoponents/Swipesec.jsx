@@ -14,44 +14,34 @@ const Swipesec = () => {
         autoplay: true,
         arrows: false,
         autoplaySpeed: 0,
-        speed: 4000,
+        speed: 2500,
         slidesToShow: 5,
         slidesToScroll: 1,
-        cssEase: "linear",
+        cssEase: "Linear",
         variableWidth: true,
         responsive: [
             {
                 breakpoint: 1200,
                 settings: {
                     slidesToShow: 4,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
                 },
             },
             {
                 breakpoint: 900,
                 settings: {
                     slidesToShow: 3.2,
-                    slidesToScroll: 1,
-                    infinite: true,
-                    dots: false,
                 },
             },
             {
                 breakpoint: 780,
                 settings: {
                     slidesToShow: 3,
-                    slidesToScroll: 1,
-                    dots: false,
                 },
             },
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1,
-                    dots: false,
                 },
             },
 
@@ -59,8 +49,6 @@ const Swipesec = () => {
                 breakpoint: 480,
                 settings: {
                     slidesToShow: 1.5,
-                    slidesToScroll: 1,
-                    dots: false,
                 },
             },
         ],

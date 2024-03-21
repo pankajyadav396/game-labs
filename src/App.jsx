@@ -17,11 +17,10 @@ function App() {
 
   return (
     <>
-
-      <Preloader />
-      <Backtotop />
-      <Header />
-      <div className='overflow-hidden'>
+      <div className='overflow-xclip'>
+        <Preloader />
+        <Backtotop />
+        <Header />
         <Swipesec />
         <Aboutus />
         <Xavier />
@@ -33,7 +32,6 @@ function App() {
         <Formsec />
         <Footersec />
       </div>
-
     </>
   )
 }
