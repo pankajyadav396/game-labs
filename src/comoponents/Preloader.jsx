@@ -21,7 +21,7 @@ const Preloader = () => {
                     className="bg-black top-0 min-vh-100 start-0 position-fixed h-100 w-100 d-flex flex-column justify-content-center align-items-center"
                 >
                     <p className="cloopp text-center fs-lg pb-5 ff-roboto color-gradient fw-semibold color-white mb-5">248 Labs</p>
-                    <div class="loader mt-5 "></div>
+                    <div className="loader mt-5 "></div>
                 </section>
             ) : (
                 ""

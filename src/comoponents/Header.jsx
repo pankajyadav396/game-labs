@@ -10,7 +10,7 @@ const Header = () => {
                     <h1 className='color-white ff-roboto fs-xl lh-86 text-center mb-3 fw-bold'>Changing the way games <span className='d-lg-block'> are made</span></h1>
                     <p className='fs-md color-white fw-normal'>Redefining the future of play</p>
                 </div>
-                <div className='w-100 text-center'>
+                <div className='w-100 text-center pb-5'>
                     <img src={img} alt="image" className='' />
                 </div>
             </div>

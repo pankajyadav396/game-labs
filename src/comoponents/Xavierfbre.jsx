@@ -3,7 +3,7 @@ import img1 from '../assets/images/webp/Xavierfabre.webp'
 const Xavierfbre = () => {
     return (
         <>
-            <div className='py-5 position-relative'>
+            <div className='pt-md-5 pb-5 position-relative'>
                 <div className='container z-1 mt-5 max-w-1140 position-relative'>
                     <div className='ellipse-2 position-absolute z-n1 opacity-75'></div>
                     <img src={img1} alt="image" className='w-100' />
