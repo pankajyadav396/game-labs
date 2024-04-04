@@ -138,9 +138,10 @@ const Formsec = () => {
                                         )}
                                     </div>
                                 </div>
-                                <div className="d-flex align-items-baseline gap-3">
-                                    <input type="checkbox" />
-                                    <p className="color-white ff-roboto mb-2 pb-1 fs-sm1">By sending this form I confirm that I have read and accept the Privacy Policy</p>
+                                <div className="d-flex gap-3">
+                                    <input type="checkbox" id="checkbox1" />
+                                    <label for="checkbox1" className="color-white ff-roboto mb-2 pb-1 fs-sm1">By sending this form I confirm that I have read and accept the Privacy Policy</label>
+
                                 </div>
                                 <div className="text-center text-sm-start">
                                     <button type="submit" className="submit-button btn-shake mt-3 color-white fs-sm ff-roboto">

@@ -12,6 +12,7 @@ const Navsection = () => {
         }
         else {
             document.body.classList.remove("overflow-max-hidden")
+
         }
     };
     return (
